@@ -314,7 +314,7 @@ body {
 
 }
 
-@media (max-width:1199px) {
+@media (max-width:991px) {
   .image-display {
     display: none;
   }
@@ -362,29 +362,33 @@ body {
   perspective: 800px;
   transition-duration: 0.5s;
   filter: grayscale(100%);
-  -webkit-filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
   transform-origin: 10% 90%;
 }
+
 .portfolio .card:hover {
-  transform: translate3d(0,0,10px);
-  -webkit-transform: translate3d(0,0,10px);
-  -moz-transform: translate3d(0,0,10px);
-  -ms-transform: translate3d(0,0,10px);
-  -o-transform: translate3d(0,0,10px);
+  transform: translate3d(0, 0, 10px);
+  -webkit-transform: translate3d(0, 0, 10px);
+  -moz-transform: translate3d(0, 0, 10px);
+  -ms-transform: translate3d(0, 0, 10px);
+  -o-transform: translate3d(0, 0, 10px);
   filter: grayscale(0);
-  -webkit-filter:grayscale(0);
+  -webkit-filter: grayscale(0);
   box-shadow: 14px 16px 13px -11px #000000;
 }
+
 .portfolio .portfolio-content img {
   max-width: 100%;
   filter: blur(2px);
   -webkit-filter: blur(2px);
   transition-duration: 0.5s;
 }
+
 .portfolio .card:hover img {
   filter: blur(0);
   -webkit-filter: blur(0);
 }
+
 .portfolio .info {
   padding: 20px;
 }
@@ -393,7 +397,8 @@ body {
   margin: 0;
   transition-duration: 0.5s;
 }
-.portfolio .card:hover .info h3{
+
+.portfolio .card:hover .info h3 {
   color: var(--main-color);
 }
 
@@ -548,6 +553,7 @@ body {
   text-decoration: none;
   transition-duration: 0.5s;
 }
+
 .contact .info .social a li {
   font-size: 1rem;
 }
@@ -555,12 +561,15 @@ body {
 .contact .info .social a:hover {
   color: red;
 }
+
 .contact .info .social .twitter:hover {
   color: rgb(0, 204, 255);
 }
+
 .contact .info .social .facebook:hover {
   color: rgb(0, 140, 255);
 }
+
 /* End contact */
 /* Start footer  */
 .footer {
